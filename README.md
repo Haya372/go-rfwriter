@@ -1,4 +1,3 @@
 # go-rfwriter
 
-rfwriter is Roloadable File Writer for Golang.
-
+rfwriter is **R**eloadable **F**ile **Writer** for Golang.
