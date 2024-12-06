@@ -11,9 +11,8 @@ import (
 RFWriter is the interface that provides io.WriteCloser methods and Reload().
 */
 type RFWriter interface {
-	Write(p []byte) (n int, err error)
+	io.WriteCloser
 	Reload() error
-	Close() error
 }
 
 type rfwriterImpl struct {
